@@ -10,7 +10,7 @@ export default function Header() {
   const auth = getAuth;
 
   return (
-    <header class="bg-metal-900 border-b border-metal-800 sticky top-0 z-50">
+    <header class="bg-metal-900/95 backdrop-blur-md border-b border-metal-800 sticky top-0 z-50 shadow-lg shadow-black/20">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex items-center justify-between h-16">
           {/* Logo */}
